@@ -1,18 +1,7 @@
-<?php
-require_once 'config/config.php';
-require_once 'controllers/LocalidadeController.php';
-?>
-<?php
-$controller = new LocalidadeController($pdo);
-
-$controller->exibirListaLocalidade();
-?>
-<a href="register-l.php">Registrar Novo?</a>
-<style>
 /* Estilo para o corpo da página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #45a049;
+    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
 }
@@ -152,5 +141,3 @@ a.lixo:hover {
 .modal-footer .btn-confirm:hover {
     background-color: #e53935;
 }
-
-</style>

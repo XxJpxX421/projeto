@@ -126,6 +126,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
     </script>
 </head>
+<link rel="stylesheet" href="estilo03.css">
 <form method="post">
     <label>Nome</label>
     <input type="text" name="nome" value="<?php echo $nome; ?>" placeholder="Nome">
